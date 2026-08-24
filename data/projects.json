@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "slug": "REPLACE_ME-project-one",
+    "title": "REPLACE_ME Project Title",
+    "category": "Web Development",
+    "description": "A -sentence summary of what this project is and who it was built for.",
+    "details": "A longer paragraph describing the problem, the approach, and the outcome. Replace this with real project details once available.",
+    "image": "assets/placeholder-project.svg",
+    "technologies": ["React", "Next.js", "Tailwind CSS"],
+    "liveUrl": "",
+    "githubUrl": "",
+    "featured": true,
+    "createdAt": "2026-01-01"
+  },
+  {
+    "id": 2,
+    "slug": "REPLACE_ME-project-two",
+    "title": "REPLACE_ME Project Title",
+    "category": "Web Design",
+    "description": "A one-sentence summary of what this project is and who it was built for.",
+    "details": "A longer paragraph describing the problem, the approach, and the outcome. Replace this with real project details once available.",
+    "image": "assets/placeholder-project.svg",
+    "technologies": ["Figma", "HTML", "CSS"],
+    "liveUrl": "",
+    "githubUrl": "",
+    "featured": true,
+    "createdAt": "2026-02-01"
+  },
+  {
+    "id": 3,
+    "slug": "REPLACE_ME-project-three",
+    "title": "REPLACE_ME Project Title",
+    "category": "Landing Pages",
+    "description": "A one-sentence summary of what this project is and who it was built for.",
+    "details": "A longer paragraph describing the problem, the approach, and the outcome. Replace this with real project details once available.",
+    "image": "assets/placeholder-project.svg",
+    "technologies": ["JavaScript", "CSS"],
+    "liveUrl": "",
+    "githubUrl": "",
+    "featured": false,
+    "createdAt": "2026-03-01"
+  }
+]
