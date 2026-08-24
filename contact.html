@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Contact — CodeWithoutBorders</title>
+<meta name="description" content="Get in touch with CodeWithoutBorders for your next web design or development project." />
+<link rel="canonical" href="https://REPLACE_ME_DOMAIN.com/contact.html" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22 fill=%22%2300ff88%22>&lt;/&gt;</text></svg>" />
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body data-page="contact">
+<a href="#main" class="skip-link">Skip to content</a>
+<div id="site-header"></div>
+
+<main id="main">
+  <section class="page-header">
+    <div class="container">
+      <span class="eyebrow">Contact</span>
+      <h1>Let's talk about your project.</h1>
+      <p>Send a message below, or reach out directly — whatever's easiest for you.</p>
+    </div>
+  </section>
+
+  <section class="section-tight">
+    <div class="container">
+      <div class="split-2col" style="--split-ratio: 1.4fr 1fr; --split-gap: 48px; --split-align: start;">
+        <form id="contactForm" class="reveal" novalidate>
+          <div class="form-grid">
+            <div class="field">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" autocomplete="name" required />
+              <span class="error" data-error-for="name"></span>
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" autocomplete="email" required />
+              <span class="error" data-error-for="email"></span>
+            </div>
+            <div class="field">
+              <label for="phone">Phone <span style="color:var(--text-faint);">(optional)</span></label>
+              <input type="tel" id="phone" name="phone" autocomplete="tel" />
+              <span class="error" data-error-for="phone"></span>
+            </div>
+            <div class="field">
+              <label for="messageLen">&nbsp;</label>
+              <div style="padding:13px 0; color:var(--text-faint); font-size:13px;">Message needs at least 20 characters.</div>
+            </div>
+            <div class="field full">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" required></textarea>
+              <span class="error" data-error-for="message"></span>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block" id="contactSubmit" style="margin-top:8px;">Send Message</button>
+          <div id="formStatus" class="form-status" role="status" aria-live="polite"></div>
+        </form>
+
+        <div class="contact-side reveal">
+          <a class="contact-link" href="#" id="emailLink">
+            <span class="icon" id="mailIcon"></span>
+            <span>
+              <strong>Email</strong>
+              <span id="emailText">Loading…</span>
+            </span>
+          </a>
+          <a class="contact-link" href="#" id="phoneLink">
+            <span class="icon" id="phoneIcon"></span>
+            <span>
+              <strong>Phone</strong>
+              <span id="phoneText">Loading…</span>
+            </span>
+          </a>
+          <a class="contact-link" href="#" id="waLink" target="_blank" rel="noopener noreferrer">
+            <span class="icon" id="waIcon"></span>
+            <span>
+              <strong>WhatsApp</strong>
+              <span id="waText">Loading…</span>
+            </span>
+          </a>
+          <a class="contact-link" href="#" id="igLink" target="_blank" rel="noopener noreferrer">
+            <span class="icon" id="igIcon"></span>
+            <span>
+              <strong>Instagram</strong>
+              <span id="igText">Loading…</span>
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+<div id="site-whatsapp"></div>
+<script src="js/config.js"></script>
+<script src="js/components.js"></script>
+<script src="js/main.js"></script>
+<script src="js/contact.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const mailIcon = document.getElementById("mailIcon");
+    const phoneIcon = document.getElementById("phoneIcon");
+    const waIcon = document.getElementById("waIcon");
+    const igIcon = document.getElementById("igIcon");
+    mailIcon.innerHTML = SiteChrome.icon("mail");
+    phoneIcon.innerHTML = SiteChrome.icon("phone");
+    waIcon.innerHTML = SiteChrome.icon("whatsapp");
+    igIcon.innerHTML = SiteChrome.icon("instagram");
+
+    const email = SITE_CONFIG.contactEmail;
+    const emailReady = email && !email.startsWith("REPLACE_ME");
+    const emailLink = document.getElementById("emailLink");
+    emailLink.href = emailReady ? `mailto:${email}` : "#";
+    document.getElementById("emailText").textContent = emailReady ? email : "Add your email in config.js";
+
+    const tel = SiteChrome.telLink();
+    const phoneLink = document.getElementById("phoneLink");
+    phoneLink.href = tel || "#";
+    document.getElementById("phoneText").textContent = tel ? SITE_CONFIG.phoneNumber : "Add your number in config.js";
+
+    const wa = SiteChrome.waLink("Hi! I'd like to talk about a project.");
+    const waLinkEl = document.getElementById("waLink");
+    waLinkEl.href = wa || "#";
+    document.getElementById("waText").textContent = wa ? "Message on WhatsApp" : "Add your number in config.js";
+
+    document.getElementById("igLink").href = SiteChrome.igLink();
+    document.getElementById("igText").textContent = "@" + SITE_CONFIG.instagramUsername;
+  });
+</script>
+</body>
+</html>

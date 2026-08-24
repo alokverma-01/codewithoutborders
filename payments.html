@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Make a Payment — CodeWithoutBorders</title>
+<meta name="description" content="Pay CodeWithoutBorders via PayPal, Razorpay, Google Pay (UPI) or Airtel Payments Bank." />
+<link rel="canonical" href="https://REPLACE_ME_DOMAIN.com/payments.html" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22 fill=%22%2300ff88%22>&lt;/&gt;</text></svg>" />
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body data-page="payments">
+<a href="#main" class="skip-link">Skip to content</a>
+<div id="site-header"></div>
+
+<main id="main">
+  <section class="page-header">
+    <div class="container">
+      <span class="eyebrow">Payments</span>
+      <h1>Make a Payment</h1>
+      <p>Use whichever method works best for you. Every option below shows exactly what to send and where.</p>
+    </div>
+  </section>
+
+  <section class="section-tight">
+    <div class="container">
+      <div id="paymentsNotice" style="display:none; margin-bottom:32px; padding:16px 18px; border:1px solid var(--border-strong); border-radius:var(--radius-md); background:var(--surface); color:var(--text-muted); font-size:14.5px;">
+        No payment methods are configured yet. Add real details in <code style="color:var(--green);">js/config.js</code> to activate these cards.
+      </div>
+      <div class="grid grid-2" id="paymentGrid"></div>
+
+      <div class="card" style="margin-top:40px;">
+        <h3 style="margin-bottom:10px;">A note on payment security</h3>
+        <p style="color:var(--text-muted); font-size:14.5px; line-height:1.7;">
+          This page only displays public payment identifiers and links — never a secret key. A payment is only
+          confirmed once it's verified on the server side (for example, by a Razorpay webhook or a manual check
+          against your bank/PayPal activity). This page never claims a payment succeeded on its own.
+          If a payment fails or is cancelled on the provider's side, please try again or reach out on WhatsApp.
+        </p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+<div id="site-whatsapp"></div>
+<script src="js/config.js"></script>
+<script src="js/components.js"></script>
+<script src="js/main.js"></script>
+<script src="js/payments.js"></script>
+</body>
+</html>
