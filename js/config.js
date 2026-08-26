@@ -41,7 +41,7 @@ const SITE_CONFIG = {
   // its own — see README.md for two easy options (Formspree, or a small API
   // route if you add a backend). Leave as null to keep the form in
   // "demo mode" (validates + shows a success state, but does not send anywhere).
-  contactFormEndpoint: null, // e.g. "https://formspree.io/f/REPLACE_ME"
+  contactFormEndpoint: "https://formspree.io/f/maewraao", // e.g. "https://formspree.io/f/REPLACE_ME"
 
   // Payment configuration. These are PUBLIC identifiers only (safe to expose).
   // Real payment *verification* must happen server-side — see README.md.
