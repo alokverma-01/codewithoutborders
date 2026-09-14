@@ -58,15 +58,15 @@
    {
     "id": 5,
     "slug": "Project5",
-    "title": "Work on progress...",
-    "category": "Landing page",
-    "description": "",
+    "title": "White-pearl-garlic",
+    "category": "Web Development",
+    "description": "A fully premium website with direct watsapp ordering features",
     "details": "",
     "image": "assets/placeholder-project.svg",
     "technologies": [""],
-    "liveUrl": "",
+    "liveUrl": "https://White-pearl-garlic.vercel.app/",
     "githubUrl": "",
     "featured": true,
-    "createdAt": "2026-08-26"
+    "createdAt": "2026-09-15"
   }
 ]
