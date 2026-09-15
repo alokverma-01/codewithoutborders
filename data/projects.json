@@ -61,7 +61,7 @@
     "title": "White-pearl-garlic",
     "category": "Web Development",
     "description": "A fully premium website with direct watsapp ordering features",
-    "details": "A modern, responsive website designed for White Pearl Garlic to establish a professional online presence and showcase its garlic products. The website focuses on clear product presentation, brand trust, bulk-order enquiries, and easy customer communication through WhatsApp.",
+    "details": "A modern, responsive website built to showcase White Pearl Garlic’s products, establish brand credibility, and make bulk-order enquiries easier through direct WhatsApp communication.",
     "image": "assets/Id 5.png",
     "technologies": ["HTML","CSS","Javascript"],
     "liveUrl": "https://White-pearl-garlic.vercel.app/",
