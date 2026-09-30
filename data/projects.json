@@ -68,5 +68,19 @@
     "githubUrl": "",
     "featured": true,
     "createdAt": "2026-09-15"
+  },
+   {
+    "id": 6,
+    "slug": "Project6",
+    "title": "Riverbend-Modern-Hospital-Template",
+    "category": "Web Development",
+    "description": "A highly easy customizable templates",
+    "details": "A modern, responsive website template for clients looking for it.",
+    "image": "assets/Id 6.png",
+    "technologies": ["HTML","CSS","Javascript"],
+    "liveUrl": "https://river-hospital-template.vercel.app/",
+    "githubUrl": "",
+    "featured": true,
+    "createdAt": "2026-09-30"
   }
 ]
