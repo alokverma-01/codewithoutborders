@@ -82,5 +82,33 @@
     "githubUrl": "",
     "featured": true,
     "createdAt": "2026-09-30"
+  },
+   {
+    "id": 7,
+    "slug": "Project7",
+    "title": "Aarambh-Modern-School-Template",
+    "category": "Web Development",
+    "description": "A highly easy customizable templates",
+    "details": "A modern, responsive website template for clients looking for it.",
+    "image": "assets/Id 7.png",
+    "technologies": ["HTML","CSS","Javascript","Typescript"],
+    "liveUrl": "https://aarambh-public-school.vercel.app/",
+    "githubUrl": "",
+    "featured": true,
+    "createdAt": "2026-10-04"
+  },
+   {
+    "id": 8,
+    "slug": "Project8",
+    "title": "Bombay-Sandwich-Modern-Resturent-Template",
+    "category": "Web Development",
+    "description": "A highly easy customizable templates",
+    "details": "A modern, responsive website template for clients looking for it.",
+    "image": "assets/Id 8.png",
+    "technologies": ["HTML","CSS","Javascript","Typescript"],
+    "liveUrl": "https://bombay-sandwich-restaurant.vercel.app/",
+    "githubUrl": "",
+    "featured": true,
+    "createdAt": "2026-10-04"
   }
 ]
