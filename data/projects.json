@@ -110,5 +110,19 @@
     "githubUrl": "",
     "featured": true,
     "createdAt": "2026-10-04"
+  },
+   {
+    "id": 9,
+    "slug": "Project9",
+    "title": "Amaraya-Modern-Hotel-Template",
+    "category": "Web Development",
+    "description": "A highly easy customizable templates",
+    "details": "A modern, responsive website template for clients looking for it.",
+    "image": "assets/Id 9.png",
+    "technologies": ["HTML","CSS","Javascript","Typescript"],
+    "liveUrl": "https://amaraya-palace-resort.vercel.app/",
+    "githubUrl": "",
+    "featured": true,
+    "createdAt": "2026-10-05"
   }
 ]
