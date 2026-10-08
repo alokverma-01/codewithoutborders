@@ -124,5 +124,19 @@
     "githubUrl": "",
     "featured": true,
     "createdAt": "2026-10-05"
+  },
+   {
+    "id": 10,
+    "slug": "Project10",
+    "title": "Cake-Modern-Bakery-Template",
+    "category": "Web Development",
+    "description": "A highly easy customizable templates",
+    "details": "A modern, responsive website template for clients looking for it.",
+    "image": "assets/Id 10.png",
+    "technologies": ["HTML","CSS","Javascript","Typescript"],
+    "liveUrl": "https://amaraya-palace-resort.vercel.app/",
+    "githubUrl": "",
+    "featured": true,
+    "createdAt": "2026-10-08"
   }
 ]
