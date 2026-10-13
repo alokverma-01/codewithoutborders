@@ -138,5 +138,33 @@
     "githubUrl": "",
     "featured": true,
     "createdAt": "2026-10-08"
+  },
+   {
+    "id": 11,
+    "slug": "Project11",
+    "title": "Vestra-Modern-E-Commerce-Template",
+    "category": "Web Development",
+    "description": "A highly easy customizable templates",
+    "details": "A modern, responsive website template for clients looking for it.",
+    "image": "assets/Id 11.png",
+    "technologies": ["HTML","CSS","Javascript","Typescript"],
+    "liveUrl": "https://vestra-store-psi.vercel.app/",
+    "githubUrl": "",
+    "featured": true,
+    "createdAt": "2026-10-13"
+  },
+   {
+    "id": 12,
+    "slug": "Project12",
+    "title": "Formo-nero-Pizza-Modern-Template",
+    "category": "Web Development",
+    "description": "A highly easy customizable templates",
+    "details": "A modern, responsive website template for clients looking for it.",
+    "image": "assets/Id 12.png",
+    "technologies": ["HTML","CSS","Javascript","Typescript"],
+    "liveUrl": "https://formo-nero-pizza.vercel.app/",
+    "githubUrl": "",
+    "featured": true,
+    "createdAt": "2026-10-13"
   }
 ]
